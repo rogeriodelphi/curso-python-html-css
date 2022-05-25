@@ -1,12 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Olá novo mundo!</h1>
-</body>
+<html>
+    <head>
+    </head>
+    <body>
+        <h1 id="titulo"></span>{{ nome }}</h1>
+        {% for entrada in entradas %}
+            <h2>{{ entrada.titulo}}</h2> {{ criado_em }}
+            <h2>{{ entrada.texto}}</h2>
+        {% endfor %}    
+
+        <p class="textoRoxo">Aqui tem outro paragrafo</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhLpAMZelvLQ9M7X-FVCHCro2ode24PQQdD4pdeYqLtQ&s">
+        <ol class="textoRoxo">
+            <li>Lorem</li>
+            <li>aqui é o segundo item da lista</li>
+        </ol>
+    </body>
 </html>
